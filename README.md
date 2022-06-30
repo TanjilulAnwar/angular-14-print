@@ -2,4 +2,4 @@
 
 print dynamic html as pdf without any hassle
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-hmpbfb)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-14-print)

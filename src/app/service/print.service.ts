@@ -5,6 +5,7 @@ export class PrintService {
   constructor() {}
 
   printMe(data) {
+    var duration = 100
     var frame1 = document.createElement('iframe');
     frame1.name = 'frame1';
     frame1.style.position = 'absolute';
@@ -19,6 +20,6 @@ export class PrintService {
       window.frames['frame1'].focus();
       window.frames['frame1'].print();
       document.body.removeChild(frame1);
-    });
+    },duration);
   }
 }

@@ -6,7 +6,7 @@ export class PrintService {
 
   print(data, duration=0) {
   // duration can change depending on element loading, 
-  //if image aren't loaded adjust duration in 
+  //if image aren't showing increase the duration in 
   //the caller function
     var frame1 = document.createElement('iframe');
     frame1.name = 'frame1';

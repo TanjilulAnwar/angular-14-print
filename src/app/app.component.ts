@@ -20,7 +20,7 @@ export class AppComponent {
 <img src="${src}" alt="error" width="${width}" height="${height}"/>
 </body></html>`;
 
-    this.printService.print(data);
+    this.printService.print(data,10);
   }
 
   printInvoice() {
@@ -215,6 +215,6 @@ export class AppComponent {
       </body>
     </html>`;
 
-    this.printService.print(data);
+    this.printService.print(data,100);
   }
 }

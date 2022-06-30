@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class PrintService {
   constructor() {}
 
-  print(data, duration=0) {
+  print(data, duration = 0) {
   // duration can change depending on element loading, 
   //if image aren't showing increase the duration in 
   //the caller function

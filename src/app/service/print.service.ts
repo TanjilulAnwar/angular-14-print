@@ -4,8 +4,10 @@ import { Injectable } from '@angular/core';
 export class PrintService {
   constructor() {}
 
-  printMe(data) {
-    var duration = 100
+  print(data, duration=0) {
+  // duration can change depending on element loading, 
+  //if image aren't loaded adjust duration in 
+  //the caller function
     var frame1 = document.createElement('iframe');
     frame1.name = 'frame1';
     frame1.style.position = 'absolute';
